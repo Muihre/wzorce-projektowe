@@ -1,4 +1,5 @@
-# Zadania zaliczeniowe z modułu Wzorce projektowe (4 sem, Informatyka inż)
+# Zadania zaliczeniowe z modułu Wzorce projektowe
+# (4 sem, Informatyka inż)
 
 Przykładowe zastosowania wzorców projektowych w języku Java:
 - Singleton
