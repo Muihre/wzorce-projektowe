@@ -7,4 +7,5 @@ Przykładowe zastosowania wzorców projektowych w języku Java:
 - Facade
 - Memento
 - Adapter
+
 oraz aplikacja z bazą danych.
