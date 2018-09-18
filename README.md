@@ -10,4 +10,5 @@ Przykładowe zastosowania wzorców projektowych:
 - Composite
 - Chain of responsibility
 - Proxy
-oraz aplikacja bazodanowa.
+
+oraz aplikacja z bazą danych.
