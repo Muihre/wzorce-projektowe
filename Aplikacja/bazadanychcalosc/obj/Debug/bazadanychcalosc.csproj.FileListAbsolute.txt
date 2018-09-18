@@ -1,0 +1,34 @@
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe.config
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csprojResolveAssemblyReference.cache
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Form1.resources
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Properties.Resources.resources
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csproj.GenerateResource.Cache
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.pdb
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.exe
+c:\users\grzej\documents\visual studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.pdb
+C:\Users\grzej\Documents\Visual Studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\bin\Debug\MySql.Data.dll
+C:\Users\grzej\Documents\Visual Studio 2013\Projects\bazadanychcalosc\bazadanychcalosc\bin\Debug\MySql.Data.xml
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe.config
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.exe
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.pdb
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.pdb
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\MySql.Data.dll
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\MySql.Data.xml
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csprojResolveAssemblyReference.cache
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Form1.resources
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Properties.Resources.resources
+C:\Users\Kondi\Documents\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csproj.GenerateResource.Cache
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe.config
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.exe
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\bazadanychcalosc.pdb
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\bin\Debug\MySql.Data.xml
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csprojResolveAssemblyReference.cache
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Form1.resources
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.Properties.Resources.resources
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csproj.GenerateResource.cache
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csproj.CoreCompileInputs.cache
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.csproj.CopyComplete
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.exe
+C:\Users\Marcjanna\Desktop\BigBlackCode-Repozytorium-Bazydanych\bazadanychcalosc\bazadanychcalosc\bazadanychcalosc\obj\Debug\bazadanychcalosc.pdb

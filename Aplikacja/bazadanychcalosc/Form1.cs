@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,7 +36,7 @@ namespace bazadanychcalosc
         #endregion Konstruktory
 
         #region Metody
-        #region Ogólne
+        #region OgÃ³lne
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -69,7 +69,7 @@ namespace bazadanychcalosc
             catch (Exception ex)
             {
                 string byk = string.Format("Problem podczas wybierania postaci:\n{0}", ex.Message);
-                MessageBox.Show(byk, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(byk, "BÅ‚Ä…d", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -102,7 +102,7 @@ namespace bazadanychcalosc
             catch (Exception ex)
             {
                 string byk = string.Format("Problem podczas inicjalizacji danych:\n{0}", ex.Message);
-                MessageBox.Show(byk, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(byk, "BÅ‚Ä…d", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -122,7 +122,7 @@ namespace bazadanychcalosc
             lista_lisb.SelectedIndex = -1;
             lista_lisb.Items.Clear();
         }
-        #endregion Ogólne
+        #endregion OgÃ³lne
 
         private void pobierz_btn_Click(object sender, EventArgs e)
         {
@@ -143,19 +143,19 @@ namespace bazadanychcalosc
                     komenda = new MySqlCommand(zapytanie, polaczenie);
                     komenda.ExecuteNonQuery();
 
-                    MessageBox.Show("Postaæ zaktualizowana.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("PostaÄ‡ zaktualizowana.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     InicjalizacjaDanych();
                     lista_lisb.SelectedIndex = IndeksWybranejPostaci;
                 }
                 else
                 {
-                    MessageBox.Show("Wybierz postaæ któr¹ chcesz zaktualizowaæ.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Wybierz postaÄ‡ ktÃ³rÄ… chcesz zaktualizowaÄ‡.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
                 string byk = string.Format("", ex.Message);
-                MessageBox.Show(byk, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(byk, "BÅ‚Ä…d", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -185,19 +185,19 @@ namespace bazadanychcalosc
                 komenda = new MySqlCommand(zapytanie, polaczenie);
                 komenda.ExecuteNonQuery();
 
-                MessageBox.Show("Postaæ dodana.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("PostaÄ‡ dodana.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 InicjalizacjaDanych();
                 //    lista_lisb.SelectedIndex = IndeksWybranejPostaci;
                 //}
                 //else
                 //{
-                //    MessageBox.Show("Wybierz postaæ któr¹ chcesz zaktualizowaæ.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //    MessageBox.Show("Wybierz postaÄ‡ ktÃ³rÄ… chcesz zaktualizowaÄ‡.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //}
             }
             catch (Exception ex)
             {
                 string byk = string.Format("", ex.Message);
-                MessageBox.Show(byk, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(byk, "BÅ‚Ä…d", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -218,20 +218,20 @@ namespace bazadanychcalosc
                         komenda = new MySqlCommand(zapytanie, polaczenie);
                         komenda.ExecuteNonQuery();
 
-                        MessageBox.Show("Postaæ usuniêta.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("PostaÄ‡ usuniÄ™ta.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         InicjalizacjaDanych();
 
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Wybierz postaæ któr¹ chcesz usun¹æ.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Wybierz postaÄ‡ ktÃ³rÄ… chcesz usunÄ…Ä‡.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
                 string byk = string.Format("Problem podczas usuwania postaci:\n{0}", ex.Message);
-                MessageBox.Show(byk, "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(byk, "BÅ‚Ä…d", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
