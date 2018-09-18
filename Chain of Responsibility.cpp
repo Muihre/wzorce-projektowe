@@ -7,10 +7,10 @@
 #include <string>
 using namespace std;
 
-class Photo
+class Image
 {
 public:
-	Photo(string s) : mTitle(s)
+	Image(string s) : mTitle(s)
 	{
 		cout << "Processing " << mTitle << " ...\n";
 	}
@@ -19,71 +19,71 @@ private:
 	string mTitle;
 };
 
-class PhotoProcessor
+class ImageProcessor
 {
 public:
-	PhotoProcessor() : mNextProcessor(0) { }
+	ImageProcessor() : mNextProcessor(0) { }
 
 public:
-	void process(Photo &p) {
+	void process(Image &p) {
 		processImplementation(p);
 		if (mNextProcessor != 0)
 			mNextProcessor->process(p);
 	}
 
-	virtual ~PhotoProcessor() { }
+	virtual ~ImageProcessor() { }
 
-	void setNextProcessor(PhotoProcessor *p) {
+	void setNextProcessor(ImageProcessor *p) {
 		mNextProcessor = p;
 	}
 
 protected:
-	virtual void processImplementation(Photo &a) = 0;
+	virtual void processImplementation(Image &a) = 0;
 
 private:
-	PhotoProcessor * mNextProcessor;
+	ImageProcessor * mNextProcessor;
 };
 
-class Scale : public PhotoProcessor
+class Scale : public ImageProcessor
 {
 public:
 	enum SCALE { S50, S100, S200, S300, S500 };
 	Scale(SCALE s) : mSCALE(s) { }
 
 private:
-	void processImplementation(Photo &a) {
-		cout << "Scaling photo\n";
+	void processImplementation(Image &a) {
+		cout << "Scaling Image\n";
 	}
 
 	SCALE mSCALE;
 };
 
-class RedEye : public PhotoProcessor
+class RedEye : public ImageProcessor
 {
 private:
-	void processImplementation(Photo &a) {
+	void processImplementation(Image &a) {
 		cout << "Removing red eye\n";
 	}
 };
 
-class Filter : public PhotoProcessor
+class Filter : public ImageProcessor
 {
 private:
-	void processImplementation(Photo &a) {
+	void processImplementation(Image &a) {
 		cout << "Applying filters\n";
 	}
 };
 
-class ColorMatch : public PhotoProcessor
+class ColorMatch : public ImageProcessor
 {
 private:
-	void processImplementation(Photo &a)
+	void processImplementation(Image &a)
 	{
 		cout << "Matching colors\n";
 	}
 };
 
-void processPhoto(Photo &photo)
+void processImage(Image &image)
 {
 	ColorMatch match;
 	RedEye eye;
@@ -92,13 +92,13 @@ void processPhoto(Photo &photo)
 	scale.setNextProcessor(&eye);
 	eye.setNextProcessor(&match);
 	match.setNextProcessor(&filter);
-	scale.process(photo);
+	scale.process(image);
 }
 
 int main()
 {
-	Photo *p = new Photo("Y2013 Photo");
-	processPhoto(*p);
+	Image *p = new Image("Y2013 Image");
+	processImage(*p);
 
 	cin.ignore();
 	return 0;
