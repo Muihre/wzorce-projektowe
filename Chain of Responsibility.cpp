@@ -7,11 +7,9 @@
 #include <string>
 using namespace std;
 
-class Image
-{
+class Image {
 public:
-	Image(string s) : mTitle(s)
-	{
+	Image(string s) : mTitle(s) {
 		cout << "Processing " << mTitle << " ...\n";
 	}
 
@@ -19,8 +17,7 @@ private:
 	string mTitle;
 };
 
-class ImageProcessor
-{
+class ImageProcessor {
 public:
 	ImageProcessor() : mNextProcessor(0) { }
 
@@ -44,8 +41,7 @@ private:
 	ImageProcessor * mNextProcessor;
 };
 
-class Scale : public ImageProcessor
-{
+class Scale : public ImageProcessor {
 public:
 	enum SCALE { S50, S100, S200, S300, S500 };
 	Scale(SCALE s) : mSCALE(s) { }
@@ -58,33 +54,28 @@ private:
 	SCALE mSCALE;
 };
 
-class RedEye : public ImageProcessor
-{
+class RedEye : public ImageProcessor {
 private:
 	void processImplementation(Image &a) {
 		cout << "Removing red eye\n";
 	}
 };
 
-class Filter : public ImageProcessor
-{
+class Filter : public ImageProcessor {
 private:
 	void processImplementation(Image &a) {
 		cout << "Applying filters\n";
 	}
 };
 
-class ColorMatch : public ImageProcessor
-{
+class ColorMatch : public ImageProcessor {
 private:
-	void processImplementation(Image &a)
-	{
+	void processImplementation(Image &a) {
 		cout << "Matching colors\n";
 	}
 };
 
-void processImage(Image &image)
-{
+void processImage(Image &image) {
 	ColorMatch match;
 	RedEye eye;
 	Filter filter;
@@ -95,8 +86,7 @@ void processImage(Image &image)
 	scale.process(image);
 }
 
-int main()
-{
+int main() {
 	Image *p = new Image("Y2013 Image");
 	processImage(*p);
 
